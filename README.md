@@ -38,3 +38,21 @@ UAS_WEB/
 │   └── index.php       # Entry Point (Front Controller)
 ├── init.php            # Inisialisasi sistem (Bootstraping)
 └── .htaccess           # URL Rewrite Root
+```
+
+## 🚀 Fitur Utama
+
+### 1. Sistem Multi-User (Role Based)
+* **Admin**: Dashboard untuk memantau omzet, mengelola menu (Tambah, Edit, Hapus), dan melihat riwayat transaksi secara real-time.
+* **User/Pelanggan**: Katalog menu interaktif, sistem pencarian, keranjang belanja, dan sistem checkout dengan integrasi QRIS (Simulasi).
+
+### 2. Manajemen Data (CRUD)
+* Admin dapat memperbarui daftar menu tanpa perlu menyentuh kode program.
+* Data disimpan secara persisten menggunakan `localStorage`, sehingga data tidak hilang saat browser dimuat ulang (refresh).
+
+### 3. Pengalaman Pengguna (UX)
+* **Full SPA**: Perpindahan halaman yang instan tanpa *reload* dan tanpa *scrolling* antar bagian.
+* **Struk Digital**: Pembuatan struk belanja otomatis setelah transaksi berhasil.
+* **Responsive Design**: Menggunakan Bootstrap 5 untuk tampilan yang optimal di desktop maupun perangkat mobile.
+
+---
