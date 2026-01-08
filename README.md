@@ -1,1 +1,40 @@
-# TUGAS_UAS
+# 🍽️ KulinerKu - Digital Restaurant System (UAS Pemrograman Web)
+
+KulinerKu adalah aplikasi manajemen restoran digital yang dibangun menggunakan arsitektur **MVC (Model-View-Controller)** mandiri dengan PHP. Proyek ini dirancang untuk mensimulasikan ekosistem restoran modern, mulai dari pemesanan pelanggan hingga pengelolaan data oleh administrator.
+
+---
+
+## 👤 Identitas Mahasiswa
+* **Nama** : Fajar Fawwaz Atallah
+* **NIM** : 312410357
+* **Kelas** : TI.24.A4
+* **Mata Kuliah** : Pemrograman Web
+
+---
+
+## 🔗 Tautan Penting (Links)
+* **🌐 Website Demo**: [Lihat Demo KulinerKu](https://fajarfawwaz.github.io/project_uasWEB/)
+* **🎥 Penjelasan Video (YouTube)**: [Tonton Presentasi Proyek](https://youtu.be/yWjbWMHmNNM?si=7w1IUMYzHaN-MdYW)
+
+---
+
+## 📂 Struktur Folder Proyek (MVC Architecture)
+
+Berikut adalah susunan folder berdasarkan arsitektur yang digunakan dalam proyek **UAS_WEB**:
+
+```text
+UAS_WEB/
+├── app/
+│   ├── config/         # Konfigurasi Database & Base URL
+│   ├── controllers/    # Admin.php, Auth.php, Checkout.php, Home.php, Makanan.php
+│   ├── core/           # App.php, Controller.php, Database.php
+│   ├── models/         # Makanan_model.php, User_model.php
+│   └── views/          # Folder View (Admin, Auth, Checkout, Home, Makanan, Templates)
+├── public/
+│   ├── css/            # style.css
+│   ├── img/            # qris.png & aset gambar lainnya
+│   ├── js/             # File JavaScript client-side
+│   ├── .htaccess       # URL Rewrite untuk folder public
+│   └── index.php       # Entry Point (Front Controller)
+├── init.php            # Inisialisasi sistem (Bootstraping)
+└── .htaccess           # URL Rewrite Root
