@@ -42,27 +42,28 @@ UAS_WEB/
 
 ## 🚀 Fitur Utama
 👤 Sisi Pelanggan (User Interface)
-Katalog Interaktif: Menampilkan daftar menu makanan dan minuman secara dinamis dari database.
+- Katalog Interaktif: Menampilkan daftar menu makanan dan minuman secara dinamis dari database.
 
-Sistem Keranjang: Pengguna dapat memilih beberapa menu sekaligus sebelum melakukan pembayaran.
+- Sistem Keranjang: Pengguna dapat memilih beberapa menu sekaligus sebelum melakukan pembayaran.
 
-Checkout & QRIS: Simulasi pembayaran modern menggunakan scan QRIS.
+- Checkout & QRIS: Simulasi pembayaran modern menggunakan scan QRIS.
 
-Struk Digital: Pembuatan struk transaksi otomatis sebagai bukti pembayaran yang sah bagi pelanggan.
+- Struk Digital: Pembuatan struk transaksi otomatis sebagai bukti pembayaran yang sah bagi pelanggan.
 
 ## 🔐 Sisi Administrator (Admin Dashboard)
-Statistik Real-time: Memantau total varian menu dan total omzet pendapatan secara instan.
+- Statistik Real-time: Memantau total varian menu dan total omzet pendapatan secara instan.
 
-Manajemen Menu (CRUD): Akses penuh untuk Menambah (Create), Melihat (Read), Mengubah (Update), dan Menghapus (Delete) daftar menu.
+- Manajemen Menu (CRUD): Akses penuh untuk Menambah (Create), Melihat (Read), Mengubah (Update), dan Menghapus (Delete) daftar menu.
 
-Laporan Transaksi: Melihat riwayat lengkap setiap pesanan yang telah dibayar.
+- Laporan Transaksi: Melihat riwayat lengkap setiap pesanan yang telah dibayar.
 
 ## 🛠️ Teknologi yang Digunakan
-Backend: PHP 8 dengan pola Native MVC.
+- Backend: PHP 8 dengan pola Native MVC.
 
-Database: MySQL dengan koneksi PDO (PHP Data Objects) untuk keamanan lebih baik.
+- Database: MySQL dengan koneksi PDO (PHP Data Objects) untuk keamanan lebih baik.
 
-Frontend: HTML5, CSS3, dan Vanilla JavaScript.
+- Frontend: HTML5, CSS3, dan Vanilla JavaScript.
 
-Framework CSS: Bootstrap 5 untuk desain yang responsif di berbagai perangkat.
+- Framework CSS: Bootstrap 5 untuk desain yang responsif di berbagai perangkat.
+
 ---
